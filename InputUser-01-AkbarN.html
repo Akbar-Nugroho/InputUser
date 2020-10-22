@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daftar hiGirls!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <h1>XI RPL 4 / 01</h1>
+    <h2>Pendaftaran hiGirls!</h2>
+    Nama Lengkap :
+    <input type="text" id="nama"> <br>
+    E-Mail : 
+    <input type="text" id="inputemail"> <br>
+    Negara :
+    <select id="Negara">
+        <option value="Indonesia">Indonesia</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Amerika Serikat">Amerika Serikat</option>
+        <option value="Vietnam">Vietnam</option>
+        <option value="Filipina">Filipina</option>
+    </select> <br>
+    Tahun Lahir :
+    <select id="lahir">
+        <option>1994</option>
+        <option>1995</option>
+        <option>1996</option>
+        <option>1997</option>
+        <option>1998</option>
+        <option>1999</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+    </select> <br>
+    Gender :
+    <input type="radio" name="gender" value="Pria"> Pria
+    <input type="radio" name="gender" value="Wanita"> Wanita
+    <input type="radio" name="gender" value="Gender Tidak Terdefinisi"> Tidak Terdefinisi <br>
+    <button id="btn" onclick="ambilData()">Daftar</button> <br>
+
+    <table>
+        <b style='display:none' id="welcome">Selamat Datang di hiGirls!</b>
+        <tr>
+            <tr>
+            <td><b>Nama Lengkap :</b></td>
+            <td><b id="demo"></b></td>
+        </tr>
+        <tr>
+            <td><b>E-Mail :</b></td>
+            <td><b id="displayemail"></b></td>
+        </tr>
+        <tr>
+            <td><b>Negara :</b></td>
+            <td><b id="displaynegara"></b></td>
+        </tr>
+        <tr>
+            <td><b>Tgl Lahir :</b></td>
+            <td><b id="displaylahir"></b></td>
+        </tr>
+        <tr>
+            <td><b>Gender :</b></td>
+            <td><b id="displayGender"></b></td>
+        </tr>
+        </tr>
+    </table>
+
+    <Script src="Main.js"></Script>
+</body>
+</html>
